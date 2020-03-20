@@ -9,6 +9,9 @@
 
     <title><?php echo $title ?></title>
 
+    <!-- FontAwesome 5 -->
+    <link href="<?php echo base_url(); ?>/assets/fontawesome/css/all.css" rel="stylesheet">
+
     <!-- bootstrap core CSS -->
     <link href="<?php echo base_url(); ?>/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 

@@ -6,7 +6,7 @@ class Home extends BaseController
 	{
 		$data = [
 			'title'      => 'Cyber App - Base',
-			'main_title' => 'Cyber App',
+			'main_title' => 'CyberCake App',
 			'content'    => 'home/index',
 		];
 		return view('home/layoutuser', $data);
