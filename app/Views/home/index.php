@@ -67,13 +67,21 @@
                 <!--Footer-->
                 <div class="modal-footer justify-content-center">
                   <span class="mr-4">Spread the word!</span>
-                  <a type="button" class="btn-floating btn-sm"><i class="fab fa-facebook-f"></i></a>
-                  <!--Twitter-->
-                  <a type="button" class="btn-floating btn-sm"><i class="fab fa-twitter"></i></a>
-                  <!--Google +-->
-                  <a type="button" class="btn-floating btn-sm"><i class="fab fa-google-plus-g"></i></a>
-                  <!--Linkedin-->
-                  <a type="button" class="btn-floating btn-sm"><i class="fab fa-linkedin-in"></i></a>
+                  <!-- AddToAny BEGIN -->
+                  <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://piksimegatama.com/" data-a2a-title="Piksi Megatama">
+                  <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                  <a class="a2a_button_facebook"></a>
+                  <a class="a2a_button_twitter"></a>
+                  <a class="a2a_button_whatsapp"></a>
+                  <a class="a2a_button_telegram"></a>
+                  <a class="a2a_button_google_gmail"></a>
+                  </div>
+                  <script>
+                  var a2a_config = a2a_config || {};
+                  a2a_config.locale = "id";
+                  </script>
+                  <script async src="https://static.addtoany.com/menu/page.js"></script>
+                  <!-- AddToAny END -->
                   <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4"
                     data-dismiss="modal">Close</button>
                 </div>
@@ -143,8 +151,6 @@
             alt="Generic placeholder image">
         </div>
       </div>
-
-      <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
 

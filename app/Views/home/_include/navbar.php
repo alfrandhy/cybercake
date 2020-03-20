@@ -17,15 +17,20 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('home/contact'); ?>">Contact Us</a>
       </li>
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Social Media</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Facebook</a>
-          <a class="dropdown-item" href="#">Instagram</a>
-          <a class="dropdown-item" href="#">Twitter</a>
-          <a class="dropdown-item" href="#">youtube</a>
-        </div>
-      </li> -->
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a href="#" type="button" class="btn-floating btn-sm text-white"><i class="fab fa-lg fa-facebook-f"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" type="button" class="btn-floating btn-sm text-white"><i class="fab fa-lg fa-twitter"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" type="button" class="btn-floating btn-sm text-white"><i class="fab fa-lg fa-instagram"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" type="button" class="btn-floating btn-sm text-white"><i class="fab fa-lg fa-youtube"></i></a>
+      </li>
     </ul>
   </div>
 </nav>
